@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="793cf8e6-4bd7-4900-bad6-5752fbdf3e88" name="Changes" comment="" />
+    <list default="true" id="793cf8e6-4bd7-4900-bad6-5752fbdf3e88" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_2.go" beforeDir="false" afterPath="$PROJECT_DIR$/week_2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_2_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/week_2_test.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +22,9 @@
     </option>
   </component>
   <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.17rc1" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -30,6 +37,7 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1wYTxSzcWOOrh0yutVmucfq5q6H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,7 +52,7 @@
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
-  <component name="RunManager" selected="Go Test.go test newProject">
+  <component name="RunManager" selected="Go Test.TestVar in newProject">
     <configuration name="TestAdd in newProject" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="newProject" />
       <working_directory value="$PROJECT_DIR$" />
@@ -54,17 +62,6 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestAdd\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestDiv in newProject" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="newProject" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="newProject" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestDiv\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestDivs2 in newProject" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -89,6 +86,17 @@
       <pattern value="^\QTestSubtraction\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestVar in newProject" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="newProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="newProject" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestVar\E$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go test newProject" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="newProject" />
       <working_directory value="$PROJECT_DIR$" />
@@ -101,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestVar in newProject" />
         <item itemvalue="Go Test.go test newProject" />
         <item itemvalue="Go Test.TestAdd in newProject" />
         <item itemvalue="Go Test.TestSubtraction in newProject" />
         <item itemvalue="Go Test.TestDivs2 in newProject" />
-        <item itemvalue="Go Test.TestDiv in newProject" />
       </list>
     </recent_temporary>
   </component>

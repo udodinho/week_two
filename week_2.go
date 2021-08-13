@@ -95,7 +95,7 @@ func Subtraction(slice []float64) float64{
 }
 
 func main() {
-	ar:= varNumber("2*3*4*5", "25/5/2", "2+3+4+5.9+6+7", "20.54-7.65-2.897")
+	ar:= varNumber("2*3*4*5", "25/5/2", "2+3+4+5.9+6+7", "3-1-3")
 	fmt.Println(ar)
 }
 
