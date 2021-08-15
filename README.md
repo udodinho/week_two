@@ -1,2 +1,2 @@
 Read me
-This is a calculation function.
+This is a calculator task done with functions.
